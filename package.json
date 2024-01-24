@@ -2,14 +2,12 @@
   "name": "scrap",
   "version": "1.0.0",
   "description": "scraping",
-  "main": "api/index.js",  
+  "main": "index.js",  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node api/index.js"  
+   
+    "start": "node src/index.js"  
   },
-  "engines": {
-    "node": "18.x"
-  },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
