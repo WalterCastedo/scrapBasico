@@ -5,6 +5,9 @@ const cheerio = require('cheerio');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.get('/',(req,res)=>{
+  res.send('bienvenido')
+})
 app.get('/scrape', async (req, res) => {
   try {
     // Lee el parámetro 'q' de la URL
@@ -43,5 +46,5 @@ app.get('/scrape', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Servidor escuchando en el puerto ${PORT}`);
+  console.log(`http://localhost:${PORT}`);
 });
