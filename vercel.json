@@ -1,0 +1,7 @@
+{
+        "functions": {
+          "api/index": {
+            "runtime": "node@20.5.0"
+          }
+        }
+      }
